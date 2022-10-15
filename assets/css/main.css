@@ -83,6 +83,7 @@ button {
   font-size: 50px;
   line-height: 60px;
   text-align: center;
+  text-transform: uppercase;
   letter-spacing: -0.02em;
   color: var(--color1);
 }
@@ -112,6 +113,7 @@ button {
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 22px;
+  text-transform: uppercase;
   color: var(--color1);
   margin-top: 16px;
 }
@@ -224,7 +226,6 @@ button {
     font-size: 30px;
     line-height: 45px;
   }
-
 }
 /* product section design end */
 /*------------------
