@@ -1,0 +1,236 @@
+/* font link */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  padding: 0px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: transparent;
+}
+a,
+button {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+/* product section design start */
+.product_wrapper {
+  background-color: var(--bg1);
+  padding: 77px 0;
+}
+.product_wrap {
+  align-items: center;
+  padding: 96px 0;
+}
+.product_title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--color1);
+}
+.product_btn_wrapper {
+  text-align: center;
+  margin-top: 38px;
+}
+.product_btn {
+  background-color: var(--bg1);
+  border: none;
+}
+.product_btn_visit_shop_img {
+  width: 126px;
+  height: 121px;
+  background-image: url(../img/visit_shop_img.svg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_btn_icon {
+  width: 28px;
+  height: 32px;
+}
+.product_img_text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--color1);
+  margin-top: 16px;
+}
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {
+}
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1399px) {
+}
+@media only screen and (max-width: 1199px) {
+  .product_title {
+    font-size: 40px;
+  }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+  .product_wrapper {
+    padding: 57px 0;
+  }
+  .product_wrap {
+    padding: 76px 0;
+  }
+
+  .product_title {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .product_btn_wrapper {
+    margin-top: 13px;
+  }
+  .product_btn_visit_shop_img {
+    width: 60px;
+    height: 55px;
+  }
+  .product_btn_icon {
+    width: 16px;
+    height: 20px;
+  }
+  .product_img_text {
+    font-size: 22px;
+    margin-top: 16px;
+  }
+  .product_img_text {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+  .product_title_wrapper {
+    margin: 100px 0;
+  }
+  .product_title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .product_btn_wrapper {
+    margin-top: 38px;
+  }
+  .product_btn_visit_shop_img {
+    width: 126px;
+    height: 121px;
+  }
+  .product_btn_icon {
+    width: 28px;
+    height: 32px;
+  }
+  .product_img_text {
+    font-size: 22px;
+    margin-top: 16px;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+  .product_title_wrapper {
+    margin: 80px 0;
+  }
+
+  .product_title {
+    width: 410px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .product_btn_visit_shop_img {
+    width: 100px;
+    height: 90px;
+  }
+  .product_btn_icon {
+    width: 28px;
+    height: 32px;
+  }
+  .product_img_text {
+    font-size: 18px;
+    margin-top: 13px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .product_title {
+    width: 360px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .product_title {
+    width: 330px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+}
+/* product section design end */
+/*------------------
+    Variable 
+------------------*/
+:root {
+  --color1: #ffffff;
+  --bg1: #171614;
+}
