@@ -138,9 +138,8 @@ button {
   .product_wrap {
     padding: 76px 0;
   }
-
   .product_title {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 40px;
   }
   .product_btn_wrapper {
@@ -165,8 +164,20 @@ button {
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
-  .product_title_wrapper {
-    margin: 100px 0;
+  .product_title_wrapper{
+    order: 1;
+  }
+  .product_img_left_wrapper{
+    order: 2;
+  }
+  .product_img_right_wrapper{
+    order: 3;
+  }
+  .product_img_right_wrap{
+    margin-top: 100px;
+  }
+  .product_title_wrap {
+    margin-bottom: 100px;
   }
   .product_title {
     font-size: 50px;
@@ -190,7 +201,7 @@ button {
 }
 /* Mobile */
 @media only screen and (max-width: 575px) {
-  .product_title_wrapper {
+  .product_title_wrap {
     margin: 80px 0;
   }
 
