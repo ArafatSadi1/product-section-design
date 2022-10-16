@@ -164,6 +164,9 @@ button {
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
+  .product_wrapper{
+    padding: 20px 0;
+  }
   .product_title_wrapper{
     order: 1;
   }
@@ -174,10 +177,10 @@ button {
     order: 3;
   }
   .product_img_right_wrap{
-    margin-top: 100px;
+    margin-top: 43px;
   }
   .product_title_wrap {
-    margin-bottom: 100px;
+    margin-bottom: 43px;
   }
   .product_title {
     font-size: 50px;
@@ -201,10 +204,12 @@ button {
 }
 /* Mobile */
 @media only screen and (max-width: 575px) {
+  .product_wrap{
+    padding: 20px 0;
+  }
   .product_title_wrap {
     margin: 80px 0;
   }
-
   .product_title {
     width: 410px;
     margin: 0 auto;
